@@ -17,6 +17,8 @@ private int id;
 private String email;
 	@Column
 private String password;
+	@Column
+	private String username;
 	public int getId() {
 		return id;
 	}
@@ -35,5 +37,12 @@ private String password;
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	
 	
 }
